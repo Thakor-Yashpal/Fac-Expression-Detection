@@ -24,35 +24,29 @@ This project focuses on detecting facial expressions using the YOLOv11n model, a
 
 ## 🧪 Notebooks
 
-- **Google Colab:** [Face Expression Detection - Colab Notebook](https://colab.research.google.com/your-colab-link-here)
-- **Kaggle Notebook:** [Face Expression Detection - Kaggle Notebook](https://kaggle.com/your-kaggle-notebook-link-here)
+- **Google Colab:** [Face Expression Detection - Colab Notebook](https://colab.research.google.com/drive/1N_d27-8AUyteTun3tvBVp11rb7DfGexR?usp=sharing)
+- **Kaggle Notebook:** [Face Expression Detection - Kaggle Notebook](https://www.kaggle.com/models/yashpalthakor/face-expression-detection)
 
 ## 🎥 Output Video
 
 Watch a sample demo of the model in action:
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
 
-*(Replace with actual link to video output or upload `.mp4` to GitHub repo if small enough)*
+![664d6fec8ce56bb678b9d215_Facial emotion recognition](https://github.com/user-attachments/assets/07584de0-a600-4e65-bf77-ad3ebac13898)
+
+[*(Replace with actual link to video output or upload `.mp4` to GitHub repo if small enough)*](https://github.com/user-attachments/assets/f1db7209-349c-47db-9e0b-2c99a706612a)
 
 ## 🛠️ Setup
-
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/face-expression-detection
-    cd face-expression-detection
+    git clone https://github.com/Thakor-Yashpal/Fac-Expression-Detection
+    cd Fac-Expression-Detection
     ```
 
 2. Install requirements:
     ```bash
     pip install -r requirements.txt
     ```
-
-3. Run detection:
-    ```bash
-    python detect.py --weights yolov11n.pt --source path/to/image_or_video
-    ```
-
 ## 📝 License
 
 This project is open source under the [MIT License](LICENSE).
@@ -60,4 +54,4 @@ This project is open source under the [MIT License](LICENSE).
 ## 🙌 Acknowledgements
 
 - [Roboflow](https://roboflow.com/) for the dataset
-- [Ultralytics YOLO](https://github.com/ultralytics/yolov5) for the base implementation
+- [Ultralytics YOLO](https://github.com/ultralytics/yolov11n) for the base implementation
